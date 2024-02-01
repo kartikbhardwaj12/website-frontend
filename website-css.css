@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(195, 195, 195);
+    overflow-x: hidden;
+}
+.template{
+    width:1000px;
+    margin: 0 auto;
+}
+.header-section{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.logo img{
+    height: 50px;
+    padding-left:10px;
+    padding-top: 4px;
+}
+.menu{
+    height: 100%;
+    float: center;
+    margin-left: 190px;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    line-height: 50px;
+    padding:5px;
+}
+.menu ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.social-icon{
+    height:100%;
+    float: left;
+}
+.social-icon i{
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    line-height: 60px;
+}
+/* Header Section CSS End Here */
+.banner-section{
+   
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    color: rgb(0, 0, 0);
+}
+.banner-content{
+    margin-left: 50px;
+    padding-top: 100px;
+}
+.banner-content h2{
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+}
+.banner-content h3{
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-left: 240px;
+   
+}
+.banner-content p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin-left: 240px;
+    
+}
+#red{
+    background-color: rgb(255, 49, 49);
+    padding:7px 20px;
+    border:1px solid red;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-left: 190px;
+}
+#blue{
+    background-color: rgb(255, 255, 255);
+    padding:7px 20px;
+    border:1px solid rgb(49,97, 255);
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(49,97,255);
+    text-align: center;
+ 
+}
+
+#red:hover{
+    background-color: rgb(0, 0, 255);
+}
+#blue:hover{
+    background-color: red;
+}
+/* Banner Section CSS End Here */
+
+.about-section{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 50px 0px;
+}
+.about-left{
+    width: 40%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+.about-left h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: crimson;
+}
+.about-left p{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.about-left button{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about-right{
+    width: 40%;
+    float: left;
+}
+.about-right img{
+    height: 300px;
+    width: 400px;
+}
+/* About Section CSS End Here */
+
+.slogan-section{
+    height: 250px;
+    width: 100%;
+    padding: 50px 0px;
+    background: gray;
+}
+.slogan-section h3{
+    text-align: center;
+    padding-top: 70px;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+}
+.slogan-section h3 q{}
+.slogan-section h5{
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+}
+/* Slogan Section CSS END Here */
+.web-section{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0px;
+
+}
+.web-item-all{}
+.web-item{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+}
+.web-item img{
+    width: 93%;
+    height: 200px;
+}
+.web-item h3{
+    padding: 15px 0px; 
+}
+.web-item p{
+    padding-bottom: 15px;
+}
+.web-item button{
+    padding: 7px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
